@@ -19,6 +19,29 @@ bool comprobarPalindromo(string palabra ){
     return true;
 }
 
+int main(){
+    int n;
+    string A[50];
+    cin>>n;
+
+    for( int i=0; i<n; i++){
+       
+        cin>>A[i];
+    }
+
+    for( int i=0; i<n; i++){
+        string palabra = A[i];
+        if( comprobarPalindromo(palabra) == true){
+            cout<<" P "<<endl;
+        }else{
+            cout<<" NP "<<endl;
+        }
+
+    }
+    return 0;
+
+}
+
 
 
 
