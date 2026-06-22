@@ -8,5 +8,13 @@ int main(){
 
     int frecuencia[1000] = {0};
 
-    
+    while( n>0 ){
+        n = n-1;
+        cin>>F;
+
+        if( F>=1 && F<=P ){
+            frecuencia[F]++;
+        }
+    }
+
 }
