@@ -17,4 +17,9 @@ int main(){
         }
     }
 
+    for( int i=1; i<=P; i++ ){
+        cout<<i<<" - "<<frecuencia[i]<<endl;
+    }
+    return 0;
+
 }
