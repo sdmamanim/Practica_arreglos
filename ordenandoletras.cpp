@@ -28,5 +28,18 @@ int main(){
             }
         }
 
+        int posicion = 0;
+        for( int i=0; i< texto.length(); i++){
+
+            if( texto[i] >='a' && texto[i]<='z'){
+
+                texto[i] = letras[posicion];
+                posicion++;
+            }
+        }
+        cout<<texto<<endl;
+
     }
+
+    return 0;
 }
